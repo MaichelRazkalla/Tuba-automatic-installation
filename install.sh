@@ -1,4 +1,4 @@
-sudo true
+sudo su
 # Alternatively you can use the official docker install script
 wget -qO- https://get.docker.com/ | sh
 
