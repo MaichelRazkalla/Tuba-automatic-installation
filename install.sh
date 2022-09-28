@@ -1,4 +1,4 @@
-sudo su
+
 # Alternatively you can use the official docker install script
 wget -qO- https://get.docker.com/ | sh
 
@@ -15,12 +15,7 @@ cd 76b450a0c986e576e98b
 sudo mv docker-cleanup /usr/local/bin/docker-cleanup
 sudo chmod +x /usr/local/bin/docker-cleanup
 
-# Install Tuba/
-cd ~/Tuba/ 
-git clone git@gitlab.com:devisionx/ai-tool/tuba-frontend.git
-cd tuba-frontend
-docker build -t tuba .
-docker run -it --rm -d -p 3001:3000 --name tuba tuba
+
 
 
  
